@@ -1,7 +1,10 @@
-r=float(input("enter the radius"));
-a=(3.1415926536*r*r);
-print("The area of circle with radius", r, "is", a)
-
-filename = input("Input the Filename: ")
-ext = filename.split(".")
-print ("The extension of the file is : " + repr(ext[-1]))
+a=[];
+c=[];
+n=int(input("enetr the number of terms"));
+for i in range (1,n+1):
+    b=int(input("enter the elements in list"));
+    a.append(b)
+for j in a:
+    if(j>0):
+        c.append(j)
+print(c)
